@@ -1,6 +1,8 @@
+// https://atcoder.jp/contests/typical90/tasks/typical90_d
+
 use proconio::input;
 
-fn main() {
+pub fn solve() {
     input! {
         h: usize,
         w: usize,
