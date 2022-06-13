@@ -16,6 +16,8 @@ fn main() {
         // "8" => solutions::sol008(),
         // "9" => solutions::sol009(),
         "10" => solutions::sol010::solve(),
+        "22" => solutions::sol022::solve(),
+        "22-162-C" => solutions::sol022::solve_162_c(),
         _ => println!("The sol {} couldn't find.", problem_id)
     }
 }
